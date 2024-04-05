@@ -1,1 +1,1 @@
-web: fsb run 0.0.0.0:$PORT 
+web: fsb run
