@@ -1,2 +1,2 @@
-web: gunicorn main:main --workers 4 --threads 4 --bind 0.0.0.0:$PORT --timeout 86400 
+web: --bind 0.0.0.0:$PORT --timeout 86400 
 fsb run
