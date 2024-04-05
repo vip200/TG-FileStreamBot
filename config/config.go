@@ -43,7 +43,7 @@ type config struct {
 	BotToken       string       `envconfig:"BOT_TOKEN" required:"true"`
 	LogChannelID   int64        `envconfig:"LOG_CHANNEL" required:"true"`
 	Dev            bool         `envconfig:"DEV" default:"false"`
-	Port           int          `envconfig:"PORT" default:"8080"`
+	Port           int          `envconfig:"PORT" default:"8348"`
 	Host           string       `envconfig:"HOST" default:""`
 	HashLength     int          `envconfig:"HASH_LENGTH" default:"6"`
 	UseSessionFile bool         `envconfig:"USE_SESSION_FILE" default:"true"`
