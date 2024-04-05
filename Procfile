@@ -1,1 +1,1 @@
-web: fsb run --port 8348
+web: fsb run
